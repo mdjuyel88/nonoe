@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'centos-7.2'
+      label 'my_node_label'
     }
 
   }
