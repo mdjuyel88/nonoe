@@ -1,5 +1,10 @@
 pipeline {
-  agent none
+  agent {
+    node {
+      label 'centos-7.2'
+    }
+
+  }
   stages {
     stage('test') {
       steps {
